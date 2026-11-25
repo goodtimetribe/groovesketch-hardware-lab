@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #14141a; color: #e8e8f0; }
+main { max-width: 960px; margin: 0 auto; padding: 1rem; }
+section { border: 1px solid #333; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
+h1, h2 { margin-top: 0; }
+button, select, input { margin: 0.2rem; padding: 0.35rem 0.6rem; }
+label { margin-right: 1rem; }
+.grid { display: flex; gap: 2px; margin: 0.4rem 0; flex-wrap: wrap; }
+.cell { width: 26px; height: 40px; background: #26262e; font-size: 9px; text-align: center; line-height: 40px; border-radius: 3px; }
+.cell.on { background: #5b8cff; }
+.cell.active { outline: 2px solid #ffd24a; }
+.monitor { font-family: monospace; font-size: 12px; max-height: 240px; overflow: auto; background: #0b0b0f; padding: 0.5rem; }
+.warn { color: #ffd24a; }
